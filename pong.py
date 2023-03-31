@@ -28,7 +28,7 @@ SCORE_FONT = pygame.font.SysFont("helvetica", 100)
 #Class for paddle
 class Paddle:
     COLOUR = WHITE
-    VEL = 8#Speed of the paddles
+    VEL = 10#Speed of the paddles
 
     def __init__(self, x, y, width, height):
         self.x = x
