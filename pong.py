@@ -181,10 +181,13 @@ def main():
         if ball.x < 0:
             rightScore += 1
             ball.reset()
+            leftPaddle.paddleReset()
+            rightPaddle.paddleReset()
         elif ball.x > WIDTH:
             leftScore += 1
             ball.reset()
-
+            leftPaddle.paddleReset()
+            rightPaddle.paddleReset()
 
     pygame.quit()
 
